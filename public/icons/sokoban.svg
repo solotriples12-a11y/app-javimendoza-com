@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" aria-hidden="true">
+  <!-- Adaptado 1:1 desde Sokoban/app/src/main/res/mipmap/ic_launcher.xml -->
+  <rect width="108" height="108" fill="#F5F5F5"/>
+  <!-- Target -->
+  <path d="M31,26 h16 a5,5 0 0 1 5,5 v16 a5,5 0 0 1 -5,5 h-16 a5,5 0 0 1 -5,-5 v-16 a5,5 0 0 1 5,-5 z"
+        fill="#FFFFFF"/>
+  <path d="M33,31 h12 a2,2 0 0 1 2,2 v12 a2,2 0 0 1 -2,2 h-12 a2,2 0 0 1 -2,-2 v-12 a2,2 0 0 1 2,-2 z"
+        fill="#F5F5F5"/>
+  <!-- Box -->
+  <path d="M31,56 h16 a5,5 0 0 1 5,5 v16 a5,5 0 0 1 -5,5 h-16 a5,5 0 0 1 -5,-5 v-16 a5,5 0 0 1 5,-5 z"
+        fill="#111111"/>
+  <!-- Player -->
+  <path d="M69,39 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0 z"
+        fill="#3B82F6"/>
+</svg>

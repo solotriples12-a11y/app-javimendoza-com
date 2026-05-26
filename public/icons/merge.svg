@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" aria-hidden="true">
+  <!-- Adaptado 1:1 desde Merge/app/src/main/res/mipmap/ic_launcher.xml -->
+  <rect width="108" height="108" fill="#181A20"/>
+  <path d="M30,34 L58,34 A6,6 0 0 1 64,40 L64,68 A6,6 0 0 1 58,74 L30,74 A6,6 0 0 1 24,68 L24,40 A6,6 0 0 1 30,34 Z"
+        fill="#5E81F4" fill-opacity="0.863"/>
+  <path d="M50,34 L78,34 A6,6 0 0 1 84,40 L84,68 A6,6 0 0 1 78,74 L50,74 A6,6 0 0 1 44,68 L44,40 A6,6 0 0 1 50,34 Z"
+        fill="#EC5C91" fill-opacity="0.863"/>
+</svg>

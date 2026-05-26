@@ -108,15 +108,10 @@ a:hover {
 .app-card-icon {
     width: 48px;
     height: 48px;
-    border-radius: 10px;
-    background: var(--accent-merge);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    font-size: 1.25rem;
-    color: #fff;
+    border-radius: 11px;       /* ~22% — squircle-ish, parecido a un icono de app */
     flex-shrink: 0;
+    object-fit: cover;          /* por si una SVG llegase con relación distinta */
+    display: block;
 }
 
 .app-card-text {
