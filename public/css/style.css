@@ -71,6 +71,17 @@ a:hover {
     color: var(--text-muted);
 }
 
+/* En páginas con contenido textual (landings de apps, privacy) apretamos
+   el hero para que el subtítulo no se aleje del título y la transición al
+   primer párrafo no sea mayor que la separación entre párrafos. */
+.hero:has(+ .content) {
+    margin-bottom: 1rem;
+}
+
+.hero:has(+ .content) h1 {
+    margin-bottom: 0.5rem;
+}
+
 .accent {
     color: var(--accent);
 }
