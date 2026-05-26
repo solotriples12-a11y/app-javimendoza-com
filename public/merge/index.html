@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge · Javier Mendoza</title>
+    <meta name="description" content="Merge — puzle estilo 2048 con tableros 3×3, 4×4 y 5×5. Android.">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <nav class="breadcrumb">
+            <a href="/">← Apps</a>
+        </nav>
+
+        <header class="hero">
+            <h1><span class="accent-merge">Merge</span></h1>
+            <p>Puzle estilo 2048 con tableros de 3×3, 4×4 y 5×5.</p>
+        </header>
+
+        <section class="content">
+            <p>Desliza para mover las fichas. Cuando dos del mismo valor chocan, se fusionan y duplican. El objetivo es seguir combinando el mayor tiempo posible.</p>
+
+            <h2>Características</h2>
+            <ul>
+                <li>Tres tamaños de tablero: 3×3, 4×4 y 5×5.</li>
+                <li>Mejor puntuación y top-5 por tamaño, guardados en local.</li>
+                <li>Deshacer un movimiento.</li>
+                <li>Sin anuncios. Sin cuentas. Sin conexión.</li>
+            </ul>
+
+            <h2>Privacidad</h2>
+            <p>Merge funciona 100 % offline y no recopila ningún dato personal. <a href="/merge/privacy">Política de privacidad</a>.</p>
+
+            <h2>Soporte</h2>
+            <p>¿Algo no va bien o tienes una sugerencia? Escríbeme a <a href="mailto:solotriples12@gmail.com">solotriples12@gmail.com</a>.</p>
+        </section>
+
+        <footer>
+            <p>© <span id="year"></span> · Javier Mendoza</p>
+        </footer>
+    </main>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
