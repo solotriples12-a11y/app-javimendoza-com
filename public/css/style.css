@@ -81,8 +81,8 @@ a:hover {
 
 /* Lista de apps en index del subdominio */
 .app-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
 
@@ -234,5 +234,8 @@ footer {
     .app-card {
         padding: 1rem 1.1rem;
         gap: 1rem;
+    }
+    .app-list {
+        grid-template-columns: 1fr;
     }
 }
