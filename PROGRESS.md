@@ -10,3 +10,9 @@
 
 **Verificado:** los HTML se renderizan en el panel de Launch preview tras cada Write.
 **Pendiente verificación:** el deploy real (DNS + Coolify) lo tiene que hacer el usuario; no probado todavía contra `https://app.javimendoza.com`.
+
+## 2026-05-26 — Sokoban añadido
+- `public/sokoban/index.html`: landing (30 niveles, sistema de estrellas, undo, sin red).
+- `public/sokoban/privacy.html`: política gemela de la de Merge ajustada a lo que Sokoban guarda (solo estrellas por nivel).
+- `public/index.html`: tarjeta de Sokoban añadida bajo la de Merge.
+- Sin cambios en `Dockerfile` ni `nginx.conf` — la estructura ya soportaba apps adicionales.

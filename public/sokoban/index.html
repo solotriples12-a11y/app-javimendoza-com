@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sokoban · Javier Mendoza</title>
+    <meta name="description" content="Sokoban — empuja las cajas hasta sus objetivos. 30 niveles. Android.">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <nav class="breadcrumb">
+            <a href="/">← Apps</a>
+        </nav>
+
+        <header class="hero">
+            <h1><span class="accent-merge">Sokoban</span></h1>
+            <p>Empuja las cajas hasta sus objetivos en 30 niveles cuidadosamente diseñados.</p>
+        </header>
+
+        <section class="content">
+            <p>Desliza para mover el personaje. Cuando empujas una caja, va en la misma dirección si tiene espacio libre detrás. Tablero resuelto cuando todas las cajas ocupan sus marcas.</p>
+
+            <h2>Características</h2>
+            <ul>
+                <li>30 niveles en tableros de 4×4, 5×5 y 6×6.</li>
+                <li>Sistema de estrellas (1 a 5) según lo cerca que te quedes del número óptimo de movimientos y del tiempo.</li>
+                <li>Deshacer ilimitado dentro de un nivel.</li>
+                <li>Mejor puntuación por nivel guardada en local.</li>
+                <li>Sin anuncios. Sin cuentas. Sin conexión.</li>
+            </ul>
+
+            <h2>Privacidad</h2>
+            <p>Sokoban funciona 100 % offline y no recopila ningún dato personal. <a href="/sokoban/privacy">Política de privacidad</a>.</p>
+
+            <h2>Soporte</h2>
+            <p>¿Algo no va bien o tienes una sugerencia? Escríbeme a <a href="mailto:solotriples12@gmail.com">solotriples12@gmail.com</a>.</p>
+        </section>
+
+        <footer>
+            <p>© <span id="year"></span> · Javier Mendoza</p>
+        </footer>
+    </main>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
