@@ -13,6 +13,7 @@
     --accent: #f56565;
     --accent-merge: #3b82f6;
     --accent-son10: #0e8c8b;
+    --accent-sokoban: #3b82f6;
     --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                   "Helvetica Neue", Arial, sans-serif;
 }
@@ -95,6 +96,10 @@ a:hover {
     color: var(--accent-son10);
 }
 
+.accent-sokoban {
+    color: var(--accent-sokoban);
+}
+
 /* Botón de descarga con el teal de ¡Son 10! (variante de .btn) */
 .btn-son10 {
     background: var(--accent-son10);
@@ -164,6 +169,17 @@ a:hover {
 .btn-download svg {
     width: 20px;
     height: 20px;
+}
+
+/* Variante azul del botón de descarga — Sokoban (mismo azul que Merge) */
+.btn-sokoban {
+    background: var(--accent-sokoban);
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.35);
+}
+
+.btn-sokoban:hover {
+    background: #5a96f7;
+    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.5);
 }
 
 /* Lista de apps en index del subdominio */
