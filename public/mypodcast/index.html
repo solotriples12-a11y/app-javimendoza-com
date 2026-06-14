@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPodcast · Javier Mendoza</title>
+    <meta name="description" content="MyPodcast — cliente de podcast minimalista para Android. Sin anuncios ni rastreadores; tus datos en tu dispositivo.">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <nav class="breadcrumb">
+            <a href="/">← Apps</a>
+        </nav>
+
+        <header class="hero">
+            <h1><span class="accent-merge">MyPodcast</span></h1>
+            <p>Un cliente de podcast minimalista para Android. Sin anuncios, sin rastreadores y con tus datos siempre en tu dispositivo.</p>
+        </header>
+
+        <section class="content">
+            <p>Busca, suscríbete y escucha tus podcasts con un reproductor cuidado al detalle. Todo funciona en local: no hay cuentas obligatorias, ni anuncios, ni analítica que te siga.</p>
+
+            <h2>Características</h2>
+            <ul>
+                <li>Descubre podcasts por búsqueda, explora los rankings por país y género, o añade cualquier feed RSS a mano (incluidos feeds privados con usuario y contraseña).</li>
+                <li>Reproductor completo: cola editable, mini-reproductor, temporizador de apagado, velocidad ajustable y salto de silencios e intros.</li>
+                <li>Escucha sin conexión: descarga episodios, con opción de solo Wi-Fi y autodescarga de los nuevos.</li>
+                <li>Listas inteligentes con reglas (sin escuchar, duración, antigüedad, podcasts incluidos o excluidos) que se actualizan solas.</li>
+                <li>Tus estadísticas de escucha, calculadas en el dispositivo: tiempo total, episodios completados y tus podcasts más escuchados.</li>
+                <li>Sincronización opcional en tu propio Google Drive para no perder tu biblioteca al cambiar de móvil.</li>
+                <li>Importa y exporta OPML, tema oscuro, notificaciones de episodios nuevos y soporte para Android Auto.</li>
+            </ul>
+
+            <h2>Privacidad</h2>
+            <p>MyPodcast no lleva anuncios, ni analítica, ni rastreadores, y no envía tus datos a ningún servidor del desarrollador. <a href="/mypodcast/privacy">Política de privacidad</a>.</p>
+
+            <h2>Soporte</h2>
+            <p>¿Algo no va bien o tienes una sugerencia? Escríbeme a <a href="mailto:solotriples12@gmail.com">solotriples12@gmail.com</a>.</p>
+        </section>
+
+        <footer>
+            <p>© <span id="year"></span> · Javier Mendoza</p>
+        </footer>
+    </main>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <img src="https://javimendoza.com/api/track?site=app.javimendoza.com&amp;path=/mypodcast/" alt="" width="1" height="1" style="position:absolute;left:-9999px">
+</body>
+</html>
