@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminación de datos · MyPodcast</title>
+    <meta name="description" content="Cómo eliminar tus datos de MyPodcast: los guardados en tu dispositivo y los sincronizados en tu propio Google Drive.">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <nav class="breadcrumb">
+            <a href="/mypodcast/">← MyPodcast</a>
+        </nav>
+
+        <header class="hero">
+            <h1>Eliminación de datos</h1>
+            <p>Aplicación MyPodcast para Android</p>
+        </header>
+
+        <section class="content">
+            <p class="muted">Última actualización: 14 de junio de 2026</p>
+
+            <h2>Resumen</h2>
+            <p>MyPodcast <strong>no tiene servidor del desarrollador</strong>, por lo que no existe ninguna «cuenta de MyPodcast» que borrar. Tus datos viven en dos sitios y los controlas tú:</p>
+            <ul>
+                <li><strong>En tu dispositivo</strong>: suscripciones, episodios, progreso, estadísticas, listas, descargas y las credenciales cifradas de tus feeds privados.</li>
+                <li><strong>En tu propio Google Drive</strong> (solo si activaste «Iniciar sesión con Google»): una copia de tus suscripciones, el estado de los episodios, tus estadísticas y tus listas, guardada en una carpeta privada y exclusiva de la app (ámbito <code>drive.appdata</code>).</li>
+            </ul>
+            <p>A continuación tienes cómo eliminar cada uno.</p>
+
+            <h2>Eliminar los datos sincronizados en tu Google Drive</h2>
+            <ul>
+                <li><strong>Desde la app (recomendado):</strong> abre MyPodcast → pestaña <em>Perfil</em> → <em>Ajustes</em> → <em>Mi cuenta</em> → <strong>«Borrar datos sincronizados»</strong>. Elimina al instante el archivo de estado y las estadísticas que la app guardó en la carpeta privada de tu Drive. Tus datos locales y tu cuenta de Google quedan intactos.</li>
+                <li><strong>Desde fuera de la app:</strong> revoca el acceso de MyPodcast en los <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">permisos de tu cuenta de Google</a>, o en Google Drive → <em>Configuración</em> → <em>Administrar aplicaciones</em> → <em>MyPodcast</em> → <em>Desconectar de Drive</em>. Al revocar el acceso, Google elimina la carpeta privada asociada a la app.</li>
+            </ul>
+
+            <h2>Eliminar los datos locales (en tu dispositivo)</h2>
+            <ul>
+                <li><strong>Desinstalar la app:</strong> Ajustes de Android → <em>Aplicaciones</em> → <em>MyPodcast</em> → <em>Desinstalar</em>. Elimina todos los datos locales de la app.</li>
+                <li><strong>Borrar solo los datos sin desinstalar:</strong> Ajustes de Android → <em>Aplicaciones</em> → <em>MyPodcast</em> → <em>Almacenamiento</em> → <strong>Borrar datos</strong>.</li>
+            </ul>
+            <p>Esto elimina tus suscripciones, los episodios descargados, el progreso de reproducción, las estadísticas, las listas y las credenciales cifradas de tus feeds privados.</p>
+
+            <h2>Qué se conserva</h2>
+            <p>El desarrollador <strong>no guarda ninguna copia</strong> de tus datos en ningún servidor, así que no hay nada más que eliminar por nuestra parte. El borrado de los datos sincronizados en tu Drive es <strong>inmediato</strong>. Tu cuenta de Google no se elimina: no es una cuenta de la app, solo el medio que tú eliges para guardar la copia en tu propio Drive.</p>
+
+            <h2>Contacto</h2>
+            <p>¿Dudas sobre la eliminación de datos? Escríbeme a <a href="mailto:solotriples12@gmail.com">solotriples12@gmail.com</a>.</p>
+
+            <p class="muted">Ver también la <a href="/mypodcast/privacy">política de privacidad</a>.</p>
+        </section>
+
+        <footer>
+            <p>© <span id="year"></span> · Javier Mendoza</p>
+        </footer>
+    </main>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <img src="https://javimendoza.com/api/track?site=app.javimendoza.com&amp;path=/mypodcast/data-deletion" alt="" width="1" height="1" style="position:absolute;left:-9999px">
+</body>
+</html>
