@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" aria-hidden="true">
+  <!-- Marca de ¡Son 10!: dos fichas que suman 10, sobre el teal de la app -->
+  <rect width="108" height="108" fill="#0E8C8B"/>
+  <rect x="20" y="34" width="32" height="40" rx="9" fill="#ffffff"/>
+  <rect x="56" y="34" width="32" height="40" rx="9" fill="#ffffff"/>
+  <g fill="#0E8C8B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">
+    <text x="36" y="54" dominant-baseline="central">6</text>
+    <text x="72" y="54" dominant-baseline="central">4</text>
+  </g>
+</svg>
