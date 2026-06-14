@@ -171,13 +171,15 @@ a:hover {
     height: 20px;
 }
 
-/* Variante azul del botón de descarga — Sokoban (mismo azul que Merge) */
-.btn-sokoban {
-    background: var(--accent-sokoban);
+/* Variante azul del botón de descarga — Sokoban y Merge (mismo azul) */
+.btn-sokoban,
+.btn-merge {
+    background: var(--accent-merge);
     box-shadow: 0 8px 24px rgba(59, 130, 246, 0.35);
 }
 
-.btn-sokoban:hover {
+.btn-sokoban:hover,
+.btn-merge:hover {
     background: #5a96f7;
     box-shadow: 0 12px 30px rgba(59, 130, 246, 0.5);
 }
