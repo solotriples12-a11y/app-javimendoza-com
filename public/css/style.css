@@ -134,10 +134,36 @@ a:hover {
     margin-top: 0.75rem;
 }
 
-.sha {
-    font-size: 0.8rem;
-    word-break: break-all;
-    color: var(--text-muted);
+/* Botón de descarga destacado — CTA principal de ¡Son 10! */
+.download-block {
+    margin: 2.25rem 0 0.5rem;
+}
+
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.95rem 2rem;
+    border-radius: 12px;
+    background: var(--accent-son10);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    box-shadow: 0 8px 24px rgba(14, 140, 139, 0.35);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.btn-download:hover {
+    background: #12a8a6;
+    box-shadow: 0 12px 30px rgba(14, 140, 139, 0.5);
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.btn-download svg {
+    width: 20px;
+    height: 20px;
 }
 
 /* Lista de apps en index del subdominio */
