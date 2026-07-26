@@ -20,7 +20,7 @@ Verifica con `dig +short app.javimendoza.com` que ya resuelve a tu IP antes de p
 ## 2. Repositorio en GitHub
 
 ```bash
-cd /Users/javier/Documents/Claude/Projects/Web javimendoza.com/app-javimendoza-com
+cd /Users/javier/Documents/Claude/Projects/web-javimendoza/app-javimendoza-com
 git init
 git add .
 git commit -m "Initial commit"
