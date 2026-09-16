@@ -33,3 +33,12 @@ Motivo: la app iOS entra en revisión de App Store y Apple abre la URL de privac
 **Tres huecos encontrados fuera del encargo** (ver DECISIONS de la misma fecha): Play In-App Review/Updates, el scope de perfil del SDK de Google en iOS, y la landing sin adaptar.
 
 **Verificado:** las tres páginas renderizan en el panel; `grep -i android` no deja ninguna afirmación sin acotar a su plataforma.
+
+## 2026-09-16 — Sotto: página y política de privacidad para App Store
+Motivo: la 1.0.0 de Sotto (iPhone) va a revisión de App Store, que exige URL de privacidad y de soporte.
+
+- `public/sotto/index.html`: qué hace, características, requisitos (iOS 26 y chip A15 o posterior), privacidad, soporte y un resumen en inglés (la ficha de App Store tiene también `en-US`).
+- `public/sotto/privacy.html`: política en español y en inglés (`#en`) en la misma página.
+- `public/icons/sotto.png`: icono de la app a 144 px, sin alfa. `public/index.html`: tarjeta de Sotto.
+
+**Verificado contra el código de Sotto (`sotto-mac`), no supuesto:** el único host es `huggingface.co` (WhisperKit, FluidAudio y `NemotronModelDownloader`); las notificaciones son locales (`ProcessNotifier`); los rastros de diagnóstico guardan fase, hora y memoria, sin audio ni texto; nada de la app se excluye de la copia de seguridad salvo diagnósticos en `Caches`; los rótulos en inglés de Ajustes (`Settings → Saved voices`, `Settings → Models`) salen de `en.lproj`. Las dos páginas y la tarjeta renderizadas en local antes del push.
